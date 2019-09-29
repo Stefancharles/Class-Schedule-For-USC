@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lemonade.widgets.slidesidemenu.SlideSideMenuTransitionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slide_side_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:text="Item 1"/>
+
+        <TextView
+            android:id="@+id/querytable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="课表查询"/>
+
+        <TextView
+            android:id="@+id/querygrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="成绩查询"/>
+
+        <TextView
+            android:id="@+id/autoevaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="一键评教"/>
+    </LinearLayout>
+
+    <com.lemonade.widgets.slidesidemenu.SlideSideMenuContentCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <!-- Optional: Tool Bar -->
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/base_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="教务在线正式版v1.0\n更新如下\n1.查询当前学期课表\n2.查询当前成绩\n3.支持一键评教"/>
+
+        </FrameLayout>
+    </com.lemonade.widgets.slidesidemenu.SlideSideMenuContentCardView>
+</com.lemonade.widgets.slidesidemenu.SlideSideMenuTransitionLayout>

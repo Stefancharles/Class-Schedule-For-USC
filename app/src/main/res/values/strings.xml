@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">教务在线正式版v1.3</string>
+    <string name="password_hint">Password</string>
+    <string name="Username_hint">Username</string>
+    <string-array name="spingarr1">
+        <item>2019年夏、秋季学期</item>
+    </string-array>
+    <string-array name="spingarr2">
+        <item>01-红湘</item>
+    </string-array>
+    <string-array name="spingarr3">
+        <item>01-第一教学楼</item>
+        <item>02-第二教学楼</item>
+        <item>03-第三教学楼</item>
+        <item>04-第四教学楼</item>
+        <item>05-第五教学楼</item>
+        <item>06-第六教学楼</item>
+        <item>07-第七教学楼</item>
+        <item>08-第八教学楼</item>
+    </string-array>
+    <string-array name="spingarr4">
+        <item>01-多媒体</item>
+    </string-array>
+    <string-array name="spingarr5">
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="spingarr6">
+        <item>1-周日1–2节</item>
+        <item>2-周日3–4节</item>
+        <item>3-周日5–6节</item>
+        <item>4-周日7–8节</item>
+        <item>5-周日9–10节</item>
+        <item>6-周一1–2节</item>
+        <item>7-周一3–4节</item>
+        <item>8-周一5–6节</item>
+        <item>9-周一7–8节</item>
+        <item>10-周一9–10节</item>
+        <item>11-周二1–2节</item>
+        <item>12-周二3–4节</item>
+        <item>13-周二5–6节</item>
+        <item>14-周二7–8节</item>
+        <item>15-周二9–10节</item>
+        <item>16-周三1–2节</item>
+        <item>17-周三3–4节</item>
+        <item>18-周三5–6节</item>
+        <item>19-周三7–8节</item>
+        <item>20-周三9–10节</item>
+        <item>21-周四1–2节</item>
+        <item>22-周四3–4节</item>
+        <item>23-周四5–6节</item>
+        <item>24-周四7–8节</item>
+        <item>25-周四9–10节</item>
+        <item>26-周五1–2节</item>
+        <item>27-周五3–4节</item>
+        <item>28-周五5–6节</item>
+        <item>29-周五7–8节</item>
+        <item>30-周五9–10节</item>
+        <item>31-周六1–2节</item>
+        <item>32-周六3–4节</item>
+        <item>33-周六5–6节</item>
+        <item>34-周六7–8节</item>
+        <item>35-周六9–10节</item>
+    </string-array>
+    <string-array name="spingarr7">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
