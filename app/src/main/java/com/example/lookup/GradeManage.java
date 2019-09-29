@@ -5,9 +5,9 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -20,7 +20,6 @@ import org.jsoup.Jsoup;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class GradeManage extends AppCompatActivity {
     private control mycontrol;

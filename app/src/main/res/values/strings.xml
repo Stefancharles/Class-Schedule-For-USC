@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">教务在线正式版v1.3</string>
-    <string name="password_hint">Password</string>
-    <string name="Username_hint">Username</string>
+    <string name="password_hint">密码</string>
+    <string name="Username_hint">学号</string>
     <string-array name="spingarr1">
         <item>2019年夏、秋季学期</item>
     </string-array>

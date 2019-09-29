@@ -8,9 +8,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -26,8 +26,6 @@ import com.example.lookup.Retrofit2.retrofit2;
 import com.example.lookup.TimeTable.staticTimeTable;
 import com.lemonade.widgets.slidesidemenu.SlideSideMenuTransitionLayout;
 
-import org.json.JSONException;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +35,6 @@ import okhttp3.ResponseBody;
 import static android.view.View.GONE;
 import retrofit2.Callback;
 import retrofit2.Call;
-import okhttp3.ResponseBody;
 import retrofit2.Response;
 public class StudentTimeTable extends AppCompatActivity {
     //星期几

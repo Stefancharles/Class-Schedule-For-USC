@@ -4,9 +4,9 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 
 import android.util.Log;
 import android.view.View;
@@ -27,8 +27,6 @@ import com.example.lookup.aboutAuthor;
 import com.lemonade.widgets.slidesidemenu.SlideSideMenuTransitionLayout;
 import com.example.lookup.staticdata;
 
-
-import org.jsoup.Jsoup;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,9 +1,10 @@
 package com.lemonade.widgets.slidesidemenu;
 
 import android.content.Context;
-import android.support.v7.widget.CardView;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
+
+import androidx.cardview.widget.CardView;
 
 /**
  * A content container for the SlideSideMenuTransitionLayout. When used as the root for the content,
