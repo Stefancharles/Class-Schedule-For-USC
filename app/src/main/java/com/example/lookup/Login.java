@@ -14,7 +14,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RadioButton;
+import android.widget.CheckBox;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
     private TextInputEditText usernameView;      //用户名
     private TextInputEditText passwordView;      //密码
     private String un="",pw="";             //文本
-    private RadioButton Rememberme;         //记住密码
+    private CheckBox Rememberme;         //记住密码
     private retrofit2 retrofit;
     private Message message;
     private Button Autowrite,Login;
